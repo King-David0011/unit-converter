@@ -1,0 +1,136 @@
+ General Styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 100vh;
+    padding: 46px 20px 40px;
+}
+
+
+/* Main Container */
+#container {
+    width: 100%;
+    max-width: 603px;
+    margin: 0 auto;
+}
+
+
+/* Header Section */
+#header {
+    background-color: #6941ff;
+    text-align: center;
+    padding: 38px 20px 37px;
+}
+
+
+/* Main Heading */
+#title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 34px;
+}
+
+
+/* Number Input */
+#number-input {
+    display: block;
+    width: 130px;
+    height: 93px;
+    margin: 0 auto 26px;
+    padding: 5px;
+    background-color: #6941ff;
+    border: 2px solid #a78bfa;
+    border-radius: 7px;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+}
+
+/* Hide the number input arrows in Chrome and similar browsers */
+#number-input::-webkit-inner-spin-button,
+#number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Convert Button */
+#convert-btn {
+    display: block;
+    width: 128px;
+    height: 46px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#convert-btn:hover {
+    background-color: #eeeeee;
+}
+
+
+/* Results Section */
+#results {
+    background-color: #202a3c;
+    padding: 39px 27px 38px;
+}
+
+
+/* Conversion Cards */
+#length-card,
+#volume-card,
+#mass-card {
+    background-color: #2b374c;
+    min-height: 119px;
+    padding: 29px 15px;
+    margin-bottom: 26px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Remove Margin from Last Card */
+#mass-card {
+    margin-bottom: 0;
+}
+
+
+/* Conversion Headings */
+#length-heading,
+#volume-heading,
+#mass-heading {
+    color: #d0c2ff;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-bottom: 12px;
+}
+
+
+/* Conversion Results */
+#length-result,
+#volume-result,
+#mass-result {
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ 
